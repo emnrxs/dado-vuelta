@@ -29,6 +29,18 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #f6efff;
+  background-image:  radial-gradient(rgba(155, 63, 216, 0.45) 1.5px, transparent 1.5px), radial-gradient(rgba(155, 63, 216, 0.45) 1.5px, #f6efff 1.5px);
+  background-size: 44px 44px;
+  background-position: 0 0,22px 22px;
+
+  animation: bg-scroll infinite 2500ms linear;
+}
+
+@keyframes bg-scroll {
+  100% {
+      background-position: 44px 44px, 66px 66px;
+  }
 }
 
 h1 {

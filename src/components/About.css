@@ -1,0 +1,18 @@
+.about {
+    top: 0;
+    right: 0;
+    position: fixed;
+    
+    width: 15rem;
+    height: 15rem;
+    background: radial-gradient(circle at top right, rgba(149, 59, 222, 0.5) 10%, transparent 50%);
+
+}
+
+.info {
+    height: 2rem;
+    margin: 0;
+    position: fixed;
+    top: 1.15em;
+    right: 1.15em;
+}

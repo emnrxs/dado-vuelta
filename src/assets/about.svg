@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="about.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     height="512px"
+     inkscape:zoom="1.466344"
+     inkscape:cx="308.24963"
+     inkscape:cy="301.77094"
+     inkscape:window-width="1920"
+     inkscape:window-height="1000"
+     inkscape:window-x="0"
+     inkscape:window-y="48"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="195.22123"
+       y="229.73413"
+       width="109.30772"
+       height="97.162406"
+       id="rect2498" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path9884"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:27.964;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 256 0 A 255.99999 255.99999 0 0 0 0 256 A 255.99999 255.99999 0 0 0 256 512 A 255.99999 255.99999 0 0 0 512 256 A 255.99999 255.99999 0 0 0 256 0 z M 256 72.304688 A 41 41 0 0 1 297 113.30469 A 41 41 0 0 1 256 154.30469 A 41 41 0 0 1 215 113.30469 A 41 41 0 0 1 256 72.304688 z M 254.71875 202.46094 L 257.28125 202.46094 C 279.28592 202.46094 297 220.17502 297 242.17969 L 297 407.68555 C 297 429.69021 279.28592 447.4043 257.28125 447.4043 L 254.71875 447.4043 C 232.71408 447.4043 215 429.69021 215 407.68555 L 215 242.17969 C 215 220.17502 232.71408 202.46094 254.71875 202.46094 z "
+       transform="scale(0.26458333)" />
+  </g>
+</svg>

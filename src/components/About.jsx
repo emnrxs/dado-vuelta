@@ -1,10 +1,11 @@
 import './About.css'
+import aboutLogo from '../assets/about.svg'
 
 const About = () => {
     return (
         <>
-        <div className="about" onClick={console.log("ABOUT!")}>
-            <img src="/src/assets/about.svg" alt="" className='info'/>
+        <div className="about">
+            <img src={aboutLogo} alt="i" className='info'/>
         </div>
         </>
     )

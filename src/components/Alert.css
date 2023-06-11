@@ -1,0 +1,24 @@
+.alert-card {
+    background-color: rgb(255, 115, 115);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    margin: 1rem;
+
+    animation: fade-in 0.6s ease-out;
+}
+
+.alert-title {
+    margin: 0;
+    width: 1.75rem;
+    height: 1.75rem;
+    color: white !important;
+    margin-bottom: 1rem;
+}
+
+.alert-text {
+    margin: 0;
+    color: white !important;
+    text-align: left;
+}

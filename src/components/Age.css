@@ -1,0 +1,36 @@
+.age-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17.5rem;
+}
+
+/* Label */
+.age-indicator {
+    color: black !important;
+    font-size: 7.5rem !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* Holds buttons */
+.age-btn-holder {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Buttons */
+.age-btn {
+    margin: 0;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    width: 6rem;
+}
+.age-btn-disabled {
+    margin-left: 0;
+    width: 6rem;
+    background-color: hsl(276, 30%, 25%) !important;
+}
+.age-btn-disabled:hover {
+    transform: none !important;
+}

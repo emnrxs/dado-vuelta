@@ -8,7 +8,7 @@ const StartPage = () => {
     
     if (goToAge) {
         return (
-        <Navigate to="/dado-vuelta/age"></Navigate>
+        <Navigate to="/dado-vuelta/age"/>
         )
     }
 

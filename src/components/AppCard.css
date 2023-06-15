@@ -1,0 +1,25 @@
+.app-card {
+    background-color: #9B3FD8;
+    /* background-color: white; */
+    border-radius: 2rem;
+    padding: 1.5rem;
+    box-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+    user-select: none;
+
+    transition: box-shadow 100ms ease-in-out;
+    transition: scale 100ms;
+}
+
+.app-card:hover {
+    scale: 1.075;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 20px;
+}
+
+.texto {
+    color: white !important;
+}
+/* 
+.logo {
+    filter: grayscale() contrast(0) brightness(1000);
+} */

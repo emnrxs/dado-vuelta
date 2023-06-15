@@ -1,0 +1,49 @@
+[
+    {
+        "appName": "Tik-Tok",
+        "appLogo": "/src/assets/apps/tiktok.png",
+        "appEula": [
+            "Roba tus datos",
+            "La gente baila"
+        ]
+    },
+    {
+        "appName": "YouTube",
+        "appLogo": "/src/assets/apps/youtube.png",
+        "appEula": [
+            "Desventaja 1",
+            "Desventaja 2"
+        ]
+    },
+    {
+        "appName": "Facebook",
+        "appLogo": "/src/assets/apps/facebook.png",
+        "appEula": [
+            "Desventaja 1",
+            "Desventaja 2"
+        ]
+    },
+    {
+        "appName": "Instagram",
+        "appLogo": "/src/assets/apps/instagram.png",
+        "appEula": [
+            "Renuncias a tus derechos morales, es decir, todo lo que publicas pasa a ser propiedad de Meta (empresa dueña de Instagram)."
+        ]
+    },
+    {
+        "appName": "Linkedin",
+        "appLogo": "/src/assets/apps/linkedin.png",
+        "appEula": [
+            "Desventaja 1",
+            "Desventaja 2"
+        ]
+    },
+    {
+        "appName": "Pinterest",
+        "appLogo": "/src/assets/apps/pinterest.png",
+        "appEula": [
+            "Desventaja 1",
+            "Desventaja 2"
+        ]
+    }
+]

@@ -1,7 +1,7 @@
 [
     {
         "appName": "Tik-Tok",
-        "appLogo": "/src/assets/apps/tiktok.png",
+        "appLogo": "/src/assets/apps/tiktok_c.png",
         "appEula": [
             "Roba tus datos",
             "La gente baila"
@@ -9,7 +9,7 @@
     },
     {
         "appName": "YouTube",
-        "appLogo": "/src/assets/apps/youtube.png",
+        "appLogo": "/src/assets/apps/youtube_c.png",
         "appEula": [
             "Desventaja 1",
             "Desventaja 2"
@@ -17,7 +17,7 @@
     },
     {
         "appName": "Facebook",
-        "appLogo": "/src/assets/apps/facebook.png",
+        "appLogo": "/src/assets/apps/facebook_c.png",
         "appEula": [
             "Desventaja 1",
             "Desventaja 2"
@@ -25,14 +25,14 @@
     },
     {
         "appName": "Instagram",
-        "appLogo": "/src/assets/apps/instagram.png",
+        "appLogo": "/src/assets/apps/instagram_c.png",
         "appEula": [
             "Renuncias a tus derechos morales, es decir, todo lo que publicas pasa a ser propiedad de Meta (empresa dueña de Instagram)."
         ]
     },
     {
         "appName": "Linkedin",
-        "appLogo": "/src/assets/apps/linkedin.png",
+        "appLogo": "/src/assets/apps/linkedin_c.png",
         "appEula": [
             "Desventaja 1",
             "Desventaja 2"
@@ -40,7 +40,7 @@
     },
     {
         "appName": "Pinterest",
-        "appLogo": "/src/assets/apps/pinterest.png",
+        "appLogo": "/src/assets/apps/pinterest_c.png",
         "appEula": [
             "Desventaja 1",
             "Desventaja 2"

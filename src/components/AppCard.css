@@ -16,10 +16,19 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 20px;
 }
 
+.app-card:hover .logo {
+    filter: none;
+}
+
 .texto {
     color: white !important;
 }
-/* 
+
 .logo {
-    filter: grayscale() contrast(0) brightness(1000);
-} */
+    filter: grayscale() contrast(0) brightness(10);
+    transition: filter 0.26s ease-out;
+}
+
+.logo:hover {
+    filter: none;
+}

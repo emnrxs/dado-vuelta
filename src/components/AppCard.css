@@ -1,4 +1,8 @@
 .app-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     background-color: #9B3FD8;
     /* background-color: white; */
     border-radius: 2rem;
@@ -7,13 +11,13 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
     user-select: none;
 
-    transition: box-shadow 100ms ease-in-out;
-    transition: scale 100ms;
+    transition: box-shadow 100ms ease-in-out, background-color 260ms, scale 100ms;
 }
 
 .app-card:hover {
     scale: 1.075;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 20px;
+    background-color: white;
 }
 
 .app-card:hover .logo {
@@ -22,6 +26,12 @@
 
 .texto {
     color: white !important;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.app-card:hover .texto {
+    color: #9B3FD8 !important;
 }
 
 .logo {
@@ -31,4 +41,11 @@
 
 .logo:hover {
     filter: none;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .app-card {
+        scale: 0.9;
+    }
 }

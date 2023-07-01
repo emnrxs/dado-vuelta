@@ -1,7 +1,7 @@
 [
     {
         "appName": "Tik-Tok",
-        "appLogo": "/src/assets/apps/tiktok_c.png",
+        "appLogo": "./src/assets/apps/tiktok_c.png",
         "appEula": [
             "Roba tus datos",
             "La gente baila"

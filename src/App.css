@@ -17,9 +17,9 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 6rem;
-
   animation: fade-in 0.6s ease-out;
+  padding-bottom: calc(100vh / 6);
+  padding-top: calc(5vh);
 }
 
 @keyframes fade-in {
@@ -36,17 +36,23 @@ img {
 .card-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 5rem 2rem;
+  gap: 3rem 2rem;
+}
+
+p {
+  max-width: 60vh;
 }
 
 @media only screen and (max-width: 720px) {
   .container {
-    margin-left: 3rem;
-    margin-right: 3rem;
-    width: calc(100vw - 6rem);
+    width: calc(100vw - 4rem);
   }
   .card-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 1rem;
+  }
+  p {
+    max-width: none;
   }
 }
 

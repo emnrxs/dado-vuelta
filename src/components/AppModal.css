@@ -1,0 +1,59 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+
+    padding: 0;
+    margin: 0;
+
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(1em);
+
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    overflow-y:scroll;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal-card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 0 32px;
+    width: 50em;
+    height: min-content;
+    margin-top: calc(100vh / 6);
+    margin-bottom: calc(100vh / 3);
+    padding: 1rem 2rem 3rem 2rem;
+}
+
+.card-description {
+    font-size: 1.5rem !important;
+    text-align: left;
+}
+
+h2 {
+    color: #9B3FD8;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+hr {
+    background-color: #bb7ee4;
+    height: 2px;
+    border: none;
+}
+
+li {
+    color: black;
+    background-color: rgb(224, 224, 224);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    margin: 1rem;
+    margin-left: -1rem;
+}

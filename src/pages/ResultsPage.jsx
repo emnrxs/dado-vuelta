@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom"
 import AppsJSON from "../apps.json"
 import AppCard from "../components/AppCard"
+import AppModal from "../components/AppModal"
 
 const ResultsPage = () => {
     const {state} = useLocation()
@@ -18,11 +19,14 @@ const ResultsPage = () => {
         {
             apps.map(
                 app => (
-                    <AppCard key={Math.random()} data={app}/>
+                    // <AppCard key={Math.random()} data={app}/>
+                    <AppCard key={app.appName} data={app} />
                 )
             )
         }
         </div>
+
+        {/* <AppModal /> */}
 
     </div>
     )

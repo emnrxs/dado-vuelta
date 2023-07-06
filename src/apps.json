@@ -14,7 +14,7 @@
     },
     {
         "appName": "YouTube",
-        "appDescription" : "DESCRIPTION",
+        "appDescription" : "Youtube es una plataforma de distribución de contenido en la que puedes subir y ver videos y directos.",
         "appDownloads" : "+10.000.000.000",
         "appLogo": "/src/assets/apps/youtube_c.png",
         "appEula": [
@@ -80,7 +80,7 @@
     {
         "appName": "Discord",
         "appDescription" : "Discord es una red social que te permite crear salas de chats y hacer llamadas",
-        "appDownloads" : "1",
+        "appDownloads" : "+100.000.000",
         "appLogo": "/src/assets/apps/discord.png",
         "appEula": [
             "El servicio puede leer tus mensajes privados.",
@@ -196,7 +196,7 @@
     },
     {
         "appName": "Twitch",
-        "appLogo": "/src/assets/apps/Twitch.png",
+        "appLogo": "/src/assets/apps/twitch.png",
         "appDescription" : "te permite realizar transmisiones en vivo",
         "appDownloads" : "+22.000.000",
         "appEula": [
@@ -222,7 +222,7 @@
     },
     {
         "appName": "Google",
-        "appLogo": "/src/assets/apps/Google.png",
+        "appLogo": "/src/assets/apps/google.png",
         "appDescription" : "es un buscador, la compañía se especializa en productos y servicios relacionados con internet, software, dispositivos electrónicos y otras tecnologías",
         "appDownloads" : "+2.500.000.000",
         "appEula": [

@@ -1,49 +1,236 @@
 [
     {
         "appName": "Tik-Tok",
+        "appDescription" : "Tik-Tok es una red social.",
+        "appDownloads" : "+100.000.000",
         "appLogo": "./src/assets/apps/tiktok_c.png",
         "appEula": [
-            "Roba tus datos",
-            "La gente baila"
+            "Los mensajes privados se pueden leer",
+            "El servicio puede eliminar contenido específico sin previo aviso y sin motivo",
+            "Este servicio puede recopilar, usar y compartir datos de ubicación",
+            "Se recopilan muchos tipos diferentes de datos personales",
+            "Las cookies de terceros se utilizan para publicidad"
         ]
     },
     {
         "appName": "YouTube",
+        "appDescription" : "DESCRIPTION",
+        "appDownloads" : "+10.000.000.000",
         "appLogo": "/src/assets/apps/youtube_c.png",
         "appEula": [
-            "Desventaja 1",
-            "Desventaja 2"
+            "Este servicio puede ver el historial de su navegador",
+            "Los videos eliminados no se eliminan realmente",
+            "Las cookies de terceros se utilizan para publicidad",
+            "Se recopila información sobre usted a través de terceros",
+            "Reducción del plazo legal para la causa de acción"
         ]
     },
     {
         "appName": "Facebook",
+        "appDescription" : "Facebook es una red social.",
+        "appDownloads" : "+5.000.000.000",
         "appLogo": "/src/assets/apps/facebook_c.png",
         "appEula": [
-            "Desventaja 1",
-            "Desventaja 2"
-        ]
+            "Almacena tu información, aunque no tengas cuenta",
+            "Pueden usar tu identidad para anuncios",
+            "Puede leer tus mensajes privados",
+            "Puede ver tu historial de navegación",
+            "Los datos eliminados siguen almacenados"
+         ]
     },
     {
         "appName": "Instagram",
+        "appDescription" : "Instagram es una red social.",
+        "appDownloads" : "+50,000,000,000",
         "appLogo": "/src/assets/apps/instagram_c.png",
         "appEula": [
-            "Renuncias a tus derechos morales, es decir, todo lo que publicas pasa a ser propiedad de Meta (empresa dueña de Instagram)."
+            "Almacenan datos sobre usted incluso si no interactuó con el servicio",
+            "Su identidad se utiliza en los anuncios que se muestran a otros usuarios",
+            "El servicio puede leer tus mensajes privados",
+            "Este servicio retiene el contenido que has eliminado",
+            "Este servicio mantiene registros de usuarios por un período de tiempo indefinido"
         ]
     },
     {
         "appName": "Linkedin",
+        "appDescription" : "LinkedIn es una red social orientada al uso empresarial, a los negocios y al empleo.",
+        "appDownloads" : "+900 millones",
         "appLogo": "/src/assets/apps/linkedin_c.png",
         "appEula": [
-            "Desventaja 1",
-            "Desventaja 2"
+            "Almacenan datos sobre usted incluso si no interactuó con el servicio",
+            "Su identidad se utiliza en los anuncios que se muestran a otros usuarios.",
+            "Los mensajes privados se pueden leer",
+            "El contenido específico se puede eliminar sin motivo y se puede eliminar sin previo aviso",
+            "La aplicación requerida para este servicio requiere amplios permisos de dispositivo"
         ]
     },
     {
         "appName": "Pinterest",
+        "appDescription" : "Pinterest es una red social que te permite ver imagenes y armar tableros.",
+        "appDownloads" : "+400 millones",
         "appLogo": "/src/assets/apps/pinterest_c.png",
         "appEula": [
-            "Desventaja 1",
-            "Desventaja 2"
+            "Almacenan datos sobre usted incluso si no con el servicio",
+            "El servicio puede leer tus mensajes privados. ",
+            "El servicio puede eliminar contenido específico sin motivo y puede hacerlo sin previo aviso.",
+            "Este servicio retiene el contenido que has eliminado.",
+            "La aplicación requerida para este servicio requiere amplios permisos de dispositivo"
+        ]
+    },
+    {
+        "appName": "Discord",
+        "appDescription" : "Discord es una red social que te permite crear salas de chats y hacer llamadas",
+        "appDownloads" : "1",
+        "appLogo": "/src/assets/apps/discord.png",
+        "appEula": [
+            "El servicio puede leer tus mensajes privados.",
+            "El servicio puede eliminar contenido específico sin motivo y puede hacerlo sin previo aviso.",
+            "Este servicio mantiene registros de usuarios por un período de tiempo indefinido.",
+            "Este servicio puede conservar datos personales tras una solicitud de supresión por intereses comerciales u obligaciones legales ",
+            "El servicio puede eliminar su cuenta sin previo aviso y sin motivo"
+        ]
+    },
+    {
+        "appName": "Spotify",
+        "appLogo": "/src/assets/apps/spotify.png",
+        "appDescription" : "Spotify te permite escuchar musica y tambien subirla.",
+        "appDownloads" : "+400 millones",
+        "appEula": [
+            "El servicio puede eliminar contenido específico sin motivo y puede hacerlo sin previo aviso.",
+            "Renuncias a tus derechos morales",
+            "Este servicio puede conservar datos personales tras una solicitud de supresión por intereses comerciales u obligaciones legales",
+            "Su cuenta puede ser eliminada sin previo aviso y sin motivo",
+            "Los usuarios disponen de un plazo reducido para emprender acciones legales contra el servicio"
+        ]
+    },
+    {
+        "appName": "WhatsApp",
+        "appLogo": "/src/assets/apps/whatsapp.png",
+        "appDescription" : "aplicación y red social que permite enviar mensajes, realizar llamadas y videollamadas",
+        "appDownloads" : "+424.000.000",
+        "appEula" : [
+          "Este servicio mantiene registros de usuarios por un período de tiempo indefinido",
+          "Este servicio comparte sus datos personales con terceros que no están involucrados en su operación",
+          "Se recopilan muchos tipos diferentes de datos personales",
+          "El servicio puede eliminar su cuenta sin previo aviso y sin motivo",
+          "El servicio puede usar píxeles de seguimiento, balizas web, huellas dactilares del navegador y/o huellas dactilares del dispositivo en los usuarios."
+        ]
+    },
+    {
+        "appName": "Amazon",
+        "appLogo": "/src/assets/apps/amazon.png",
+        "appDescription" : "Te permite Combrar bienes a través de Internet",
+        "appDownloads" : "+500 000 000",
+        "appEula": [
+           "Las cookies de terceros se utilizan para publicidad",
+           "Los términos pueden cambiarse en cualquier momento a su discreción, sin previo aviso al usuario",
+           "El servicio puede eliminar su cuenta sin previo aviso y sin motivo",
+           "Este servicio te rastrea en otros sitios web",
+           "El servicio puede vender o transferir sus datos personales como parte de un procedimiento de quiebra u otro tipo de transacción financiera."
+        ]
+    },
+    {
+        "appName": "Disney+",
+        "appLogo": "/src/assets/apps/disneyplus.png",
+        "appDescription" : "Te permite ver peliculas y series a través de Internet",
+        "appDownloads" : "+100 000 000",
+        "appEula": [
+           "Almacenan datos sobre usted incluso si no interactuó con el servicio",
+           "Los mensajes privados se pueden leer",
+           "Este servicio aún lo rastrea incluso si optó por dejar de rastrear",
+           "Este servicio puede recopilar, usar y compartir datos de ubicación",
+           "Seguimiento a través de cookies de terceros para publicidad"
+        ]
+    },
+    {
+        "appName": "Steam",
+        "appLogo": "/src/assets/apps/steam.png",
+        "appDescription" : "Steam es una plataforma para descargar juegos.",
+        "appDownloads" : "+1.000.000.000",
+        "appEula": [
+           "El servicio puede leer tus mensajes privados",
+           "Este servicio puede recopilar, usar y compartir datos de ubicación. ",
+           "Este servicio puede conservar datos personales después de una solicitud de borrado por intereses comerciales u obligaciones legales.",
+           "El servicio puede vender o transferir sus datos personales como parte de un procedimiento de quiebra u otro tipo de transacción financiera. ",
+           "Este servicio obliga a los usuarios a un arbitraje vinculante en caso de disputas"
+        ]
+    },
+    {
+        "appName": "Reddit",
+        "appLogo": "/src/assets/apps/reddit.png",
+        "appDescription" : "Reddit es una red social.",
+        "appDownloads" : "+100.000.000",
+        "appEula": [
+           "Este servicio puede leer tus mensajes privados",
+           "Renuncias a los derechos morales",
+           "El servicio puede eliminar contenido sin una razón",
+           "Este servicio puede conservar datos personales después de una solicitud de borrado por intereses comerciales u obligaciones legales",
+           "Seguimiento a través de cookies de terceros para otros fines sin su consentimiento"
+        ]
+    },
+    {
+        "appName": "PayPal",
+        "appLogo": "/src/assets/apps/paypal.png",
+        "appDescription" : "PayPal sirve como un método de pago",
+        "appDownloads" : "+500.000.000",
+        "appEula": [
+           "Renuncias a tus derechos morales",
+           "Este servicio aún lo rastrea incluso si optó por no participar en el seguimiento",
+           "Este servicio puede conservar datos personales después de una solicitud de borrado por intereses comerciales u obligaciones legales.",
+           "Debe proporcionar su información identificable",
+           "Las cookies de terceros se utilizan para publicidad"
+        ]
+    },
+    {
+        "appName": "Twitter",
+        "appLogo": "/src/assets/apps/twitter.png",
+        "appDescription" : "Twitter es una red social.",
+        "appDownloads" : "+1 000 000 000",
+        "appEula": [
+           "Almacenan datos sobre usted incluso si no interactuó con el servicio",
+           "El servicio puede leer tus mensajes privados",
+           "El servicio puede eliminar contenido específico sin previo aviso y sin motivo",
+           "Este servicio puede ver el historial de su navegador",
+           "Este servicio retiene el contenido que has eliminado"
+        ]
+    },
+    {
+        "appName": "Twitch",
+        "appLogo": "/src/assets/apps/Twitch.png",
+        "appDescription" : "te permite realizar transmisiones en vivo",
+        "appDownloads" : "+22.000.000",
+        "appEula": [
+           "El servicio puede eliminar contenido específico sin motivo y puede hacerlo sin previo aviso.",
+           "Seguimiento a través de cookies de terceros para otros fines sin su consentimiento.",
+           "Los términos pueden cambiarse en cualquier momento a su discreción, sin previo aviso al usuario.",
+           "Este servicio puede conservar datos personales tras una solicitud de supresión por intereses comerciales u obligaciones legales",
+           "Este servicio ignora el encabezado No rastrear (DNT) y rastrea a los usuarios de todos modos, incluso si configuran este encabezado."
+        ]
+    },
+    {
+        "appName": "Netflix",
+        "appLogo": "/src/assets/apps/netflix.png",
+        "appDescription" : "Te permite ver peliculas por internet",
+        "appDownloads" : "+1.000.000.000",
+        "appEula": [
+           "La aplicación requerida para este servicio requiere amplios permisos de dispositivo",
+           "Este servicio puede recopilar, usar y compartir datos de ubicación",
+           "Este servicio puede conservar datos personales tras una solicitud de supresión por intereses comerciales u obligaciones legales",
+           "El servicio recopila muchos tipos diferentes de datos personales",
+           "Este servicio puede compartir su información personal con terceros"
+        ]
+    },
+    {
+        "appName": "Google",
+        "appLogo": "/src/assets/apps/Google.png",
+        "appDescription" : "es un buscador, la compañía se especializa en productos y servicios relacionados con internet, software, dispositivos electrónicos y otras tecnologías",
+        "appDownloads" : "+2.500.000.000",
+        "appEula": [
+          "Almacenan datos sobre usted incluso si no interactuó con el servicio",
+          "Su identidad se utiliza en los anuncios que se muestran a otros usuarios." ,
+          "El servicio puede leer sus correos electrónicos privados." ,
+          "Este servicio puede ver el historial de su navegador",
+          "Este servicio retiene el contenido que has eliminado." 
         ]
     }
 ]

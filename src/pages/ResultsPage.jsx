@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom"
+import { useState } from "react"
 import AppsJSON from "../apps.json"
 import AppCard from "../components/AppCard"
 import AppModal from "../components/AppModal"
@@ -8,8 +9,15 @@ const ResultsPage = () => {
     const {userAge} = state
     const apps = AppsJSON
 
-    console.log(userAge)
-    const test = "AAA"
+    const [selectedButton, setSelectedButton] = useState(null); 
+
+    const openModal = (button) => {
+        setSelectedButton(button);
+    }
+
+    const closeModal = () => {
+        setSelectedButton(null);
+    }
 
     return (
     <div className='container'>
@@ -17,16 +25,20 @@ const ResultsPage = () => {
         
         <div className="card-container">
         {
+            // Creates all the buttons
             apps.map(
                 app => (
-                    // <AppCard key={Math.random()} data={app}/>
-                    <AppCard key={app.appName} data={app} />
+                    <AppCard onClick={openModal} key={app.appName} data={app} />
                 )
             )
         }
         </div>
 
-        {/* <AppModal /> */}
+        {
+            selectedButton && (
+                <AppModal onCloseModal={closeModal} modalData={selectedButton}/>
+            )
+        }
 
     </div>
     )
